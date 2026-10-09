@@ -1,0 +1,23 @@
+{
+  "model": "openai:gpt-4o-mini",
+  "elapsed_s": 2385.1,
+  "subagent_calls": 13,
+  "tool_calls": {
+    "write_todos": 3,
+    "task": 13,
+    "read_file": 4,
+    "write_file": 3,
+    "execute": 3
+  },
+  "tokens": {
+    "input": 136562,
+    "output": 4150
+  },
+  "topic": "survey about world model",
+  "n_sources": 7,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "N/A",
+    "url": "https://www.nvidia.com/en-us/glossary/world-models/",
+    "title": "What Is a World Model?",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2511.09057",
+    "url": "https://arxiv.org/html/2511.09057v2",
+    "title": "PAN: A World Model for General, Interactable, and Long-Horizon World Simulation",
+    "date": "N/A",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2610.00101",
+    "url": "https://arxiv.science/abs/2606.00133",
+    "title": "World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+    "date": "2026-05-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "N/A",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12581470/",
+    "title": "Hybrid modelling using simulation and machine learning approaches in healthcare",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2609.03774",
+    "url": "https://arxiv.org/abs/2609.03774",
+    "title": "Rethinking World Models for Safety-Critical Embodied Systems",
+    "date": "2026-09-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2402.08268",
+    "url": "https://huggingface.co/papers/2402.08268",
+    "title": "World Model on Million-Length Video And Language With RingAttention",
+    "date": "2024-02-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2405.09111",
+    "url": "https://huggingface.co/papers/2405.09111",
+    "title": "CarDreamer: Open-Source Learning Platform for World Model Based Autonomous Driving",
+    "date": "2024-05-15",
+    "source": "hf-search"
+  }
+]
