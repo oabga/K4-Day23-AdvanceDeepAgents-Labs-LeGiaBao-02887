@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2407.09276",
+    "url": "https://huggingface.co/papers/2407.09276",
+    "title": "H2O-Danube3 Technical Report",
+    "date": "2024-07-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2411.05046",
+    "url": "https://huggingface.co/papers/2411.05046",
+    "title": "PhoneLM: an Efficient and Capable Small Language Model Family through Principled Pre-training",
+    "date": "2024-11-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2409.06857",
+    "url": "https://arxiv.org/pdf/2409.06857v7.pdf",
+    "title": "A Survey on Small Language Models in the Era of Large Language Models: Architecture, Capabilities, and Trustworthiness",
+    "date": null,
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2606.14711",
+    "url": "https://huggingface.co/papers/2606.14711",
+    "title": "SWARM-LLM: Collaborative Inference for Edge-based Small Language Models",
+    "date": "2026-04-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2511.18890",
+    "url": "https://huggingface.co/papers/2511.18890",
+    "title": "Nemotron-Flash: Towards Latency-Optimal Hybrid Small Language Models",
+    "date": "2025-11-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2610.07443",
+    "url": "https://arxiv.org/abs/2610.07443",
+    "title": "A Shape-Adaptive Architecture with Disaggregated Quantization for Efficient LLM Serving",
+    "date": "2026-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2610.06147",
+    "url": "https://arxiv.org/abs/2610.06147",
+    "title": "Efficient Test-time Adaptation through Candidate Verification and Divergence Shifts",
+    "date": "2026-10-05",
+    "source": "arxiv"
+  }
+]

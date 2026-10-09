@@ -1,0 +1,106 @@
+[
+  {
+    "n": 1,
+    "id": "2610.00812",
+    "url": "https://arxiv.org/abs/2610.00812",
+    "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+    "date": "2026-09-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2211.14842",
+    "url": "https://huggingface.co/papers/2211.14842",
+    "title": "Unified Discrete Diffusion for Simultaneous Vision-Language Generation",
+    "date": "2022-11-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2604.08121",
+    "url": "https://huggingface.co/papers/2604.08121",
+    "title": "Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator",
+    "date": "2026-04-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "N/A",
+    "url": "https://export.arxiv.org/pdf/2308.14177v3.pdf",
+    "title": "AIGC for Various Data Modalities: A Survey",
+    "date": "2023-08-01",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "N/A",
+    "url": "https://keg.cs.tsinghua.edu.cn/jietang/publications/iclr23-CogVideo.pdf",
+    "title": "CogVideo: A 9B-parameter Transformer for Text-to-Video Generation",
+    "date": "2023-12-01",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "N/A",
+    "url": "https://research.google/blog/videopoet-a-large-language-model-for-zero-shot-video-generation/",
+    "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+    "date": "2023-12-19",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2503.12605",
+    "url": "https://huggingface.co/papers/2503.12605",
+    "title": "Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey",
+    "date": "2025-03-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2604.11804",
+    "url": "https://huggingface.co/papers/2604.11804",
+    "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+    "date": "2026-04-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2610.12459",
+    "url": "https://arxiv.org/abs/2610.12459",
+    "title": "WorldGuide: Goal-Directed Video World Model for Procedural Task Execution",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2609.37107",
+    "url": "https://arxiv.org/abs/2609.37107",
+    "title": "Waypoint-1.5: A Real-Time Video World Model for Consumer Hardware",
+    "date": "2026-09-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2402.12451",
+    "url": "https://huggingface.co/papers/2402.12451",
+    "title": "The (R)Evolution of Multimodal Large Language Models: A Survey",
+    "date": "2024-02-19",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2501.13452",
+    "url": "https://huggingface.co/papers/2501.13452",
+    "title": "EchoVideo: Identity-Preserving Human Video Generation by Multimodal Feature Fusion",
+    "date": "2025-01-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2610.12468",
+    "url": "https://arxiv.org/abs/2610.12468",
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  }
+]

@@ -5,8 +5,10 @@ Result: reports/<slug>.md   reports/<slug>.sources.json   reports/<slug>.meta.js
 """
 import json
 import os
+import queue
 import re
 import sys
+import threading
 import time
 from collections import Counter
 from pathlib import Path
@@ -19,6 +21,31 @@ ROOT = Path(__file__).parent
 REPORTS = ROOT / "reports"
 VALIDATOR_SOURCE = ROOT / "check_citations.py"
 FINALIZER_SOURCE = ROOT / "finalize_citations.py"   # provided: uploaded next to your validator
+
+RUN_TIMEOUT_S = 25 * 60  # the sandbox can go idle-stale under the agent; never block forever on a hung call
+
+
+def _invoke_with_timeout(agent, payload, config, timeout):
+    """Run agent.invoke in a DAEMON thread so a hung underlying call (e.g. a stale sandbox connection after the
+    sandbox went idle) cannot block the process forever. concurrent.futures.ThreadPoolExecutor is NOT used here:
+    it joins its worker threads at interpreter exit, which would hang just the same. A daemon thread is simply
+    abandoned by the interpreter instead."""
+    box = queue.Queue(maxsize=1)
+
+    def _run():
+        try:
+            box.put(("ok", agent.invoke(payload, config=config)))
+        except Exception as exc:  # noqa: BLE001 - forward it to the caller instead of crashing a daemon thread
+            box.put(("error", exc))
+
+    threading.Thread(target=_run, daemon=True).start()
+    try:
+        status, value = box.get(timeout=timeout)
+    except queue.Empty:
+        raise RuntimeError(f"agent run exceeded {timeout}s and was abandoned") from None
+    if status == "error":
+        raise value
+    return value
 
 
 def slugify(topic):
@@ -126,9 +153,11 @@ def main(topic):
                 FINALIZER_PATH: FINALIZER_SOURCE.read_bytes(),
             })
             agent = build_lead_agent(backend, model)
-            result = agent.invoke(
+            result = _invoke_with_timeout(
+                agent,
                 {"messages": [{"role": "user", "content": build_prompt(topic)}]},
-                config={"recursion_limit": 1000},
+                {"recursion_limit": 1000},
+                RUN_TIMEOUT_S,
             )
             elapsed = time.monotonic() - start
             report_path = save_outputs(backend, topic, result["messages"], elapsed, model_name)

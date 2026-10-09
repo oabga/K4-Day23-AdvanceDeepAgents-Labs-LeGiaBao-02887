@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2610.02569",
+    "url": "https://arxiv.org/abs/2610.02569",
+    "title": "Pincer: Resource Authorization for Agents using a Digital Twin",
+    "date": "2026-10-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2601.17549",
+    "url": "https://huggingface.co/papers/2601.17549",
+    "title": "Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents",
+    "date": "2026-01-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2502.13767",
+    "url": "https://huggingface.co/papers/2502.13767",
+    "title": "Agentic AI Software Engineers: Programming with Trust",
+    "date": "2025-02-19",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2502.04644",
+    "url": "https://huggingface.co/papers/2502.04644",
+    "title": "Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research",
+    "date": "2025-02-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2510.02271",
+    "url": "https://huggingface.co/papers/2510.02271",
+    "title": "InfoMosaic-Bench: Evaluating Multi-Source Information Seeking in Tool-Augmented Agents",
+    "date": "2025-10-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2407.10718",
+    "url": "https://huggingface.co/papers/2407.10718",
+    "title": "Sibyl: Simple yet Effective Agent Framework for Complex Real-world Reasoning",
+    "date": "2024-07-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2607.05775",
+    "url": "https://arxiv.org/abs/2607.05775",
+    "title": "Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents",
+    "date": "2026-07-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "10.1007/s43681-025-00847-w",
+    "url": "https://link.springer.com/article/10.1007/s43681-025-00847-w",
+    "title": "Ethical perspectives on deployment of large language model agents",
+    "date": "2025-12-04",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2609.22712",
+    "url": "https://arxiv.org/abs/2609.22712",
+    "title": "Trustworthy Agentic AI: Failure Modes, Mitigation Strategies, and a Lifecycle Framework for Autonomous LLM Systems",
+    "date": "2026-09-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "PMC12615531",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12615531/",
+    "title": "Responsibility Gaps, LLMs & Organisations: Many Agents",
+    "date": "2025-11-13",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "231065300",
+    "url": "https://lup.lub.lu.se/search/files/231065300/Bellog_n_et_al_2025_Systemic_Risks_Associated_with_Agentic_AI_A_Policy_Brief.pdf",
+    "title": "Challenges in Predictability and Accountability in AI Agents",
+    "date": "2025",
+    "source": "web"
+  }
+]

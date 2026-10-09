@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2610.12061",
+    "url": "https://arxiv.org/abs/2610.12061",
+    "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2402.05808",
+    "url": "https://huggingface.co/papers/2402.05808",
+    "title": "Training Large Language Models for Reasoning through Reverse Curriculum Reinforcement Learning",
+    "date": "2024-02-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2604.17312",
+    "url": "https://arxiv.org/html/2604.17312v1",
+    "title": "A Survey of Reinforcement Learning for Large Language Models",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2610.11502",
+    "url": "https://arxiv.org/abs/2610.11502",
+    "title": "Fed-GRPO: Reward-Signal-Driven Federated Group Relative Policy Optimization",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2505.24630",
+    "url": "https://huggingface.co/papers/2505.24630",
+    "title": "The Hallucination Dilemma: Factuality-Aware Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-05-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2509.08827",
+    "url": "https://huggingface.co/papers/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-09-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2511.12429",
+    "url": "https://huggingface.co/papers/2511.12429",
+    "title": "Tailored Primitive Initialization is the Secret Key to Reinforcement Learning",
+    "date": "2025-11-16",
+    "source": "hf-search"
+  }
+]
